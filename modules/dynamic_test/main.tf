@@ -23,7 +23,7 @@ resource "aws_security_group" "dynamicsg" {
     }
   }
 
-  tags {
+  tags = {
     Name = "njtest-dynamic-sg"
   }
 }
